@@ -71,7 +71,7 @@ namespace TV_Vyalykh.Classes
             ActiveChannel++;
             SwapChannel(_MediaElement, _NameChannel);
         }
-        public void BackcChannel(MediaElement _MediaElement, Label _NameChannel)
+        public void BackChannel(MediaElement _MediaElement, Label _NameChannel)
         {
             ActiveChannel--;
             SwapChannel(_MediaElement, _NameChannel);
